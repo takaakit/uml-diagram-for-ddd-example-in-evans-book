@@ -10,15 +10,15 @@ Click the diagram you want to see.
 
 ## User-system interaction
 This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/User-system interaction/diagram_map.html" title="User-system interaction"><img src="./images/User-system interaction.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/User-system interaction.svg" title="User-system interaction"><img src="./images/User-system interaction.svg" /></a>
 
 ## Domain model overview
 This class diagram illustrates the basic elements of the domain model and their relationships. The layout of the elements is based on the diagram presented in the [dddsample-core](https://github.com/citerus/dddsample-core) project.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/Domain model overview/diagram_map.html" title="Domain model overview"><img src="./images/Domain model overview.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Domain model overview.svg" title="Domain model overview"><img src="./images/Domain model overview.svg" /></a>
 
 ## Domain objects for ABC123 cargo
 This object diagram shows the connections among the basic domain objects. Specifically, it shows the object snapshot associated with the cargo object "ABC123," which is preset as sample data. The cargo "ABC123," which is en route from HongKong to Helsinki, is currently at the Port of New York, where unloading has been completed.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/Domain objects for ABC123 cargo/diagram_map.html" title="Domain objects for ABC123 cargo"><img src="./images/Domain objects for ABC123 cargo.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Domain objects for ABC123 cargo.svg" title="Domain objects for ABC123 cargo"><img src="./images/Domain objects for ABC123 cargo.svg" /></a>
 
 ## Overall structure
 This class diagram illustrates the overall structure of the cargo shipping system: it is composed of two contexts, the Booking context and the Transport network context. The system is implemented using Spring projects such as Spring Boot / MVC / Data JPA.
@@ -26,31 +26,31 @@ This class diagram illustrates the overall structure of the cargo shipping syste
 Notes:
 * This diagram focuses on key elements and relationships and does not reflect the entire implementation.
 * Attributes and operations are hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file in the modeling tool Astah.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/Overall structure/diagram_map.html" title="Overall structure"><img src="./images/Overall structure.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Overall structure.svg" title="Overall structure"><img src="./images/Overall structure.svg" /></a>
 
 ## [Behavior 1] Initialization
 This communication diagram illustrates a scenario in which the user initiates the cargo shipping system, with a focus on important messages.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/[Behavior 1] Initialization/diagram_map.html" title="[Behavior 1] Initialization"><img src="./images/Behavior 1 Initialization.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Behavior 1 Initialization.svg" title="[Behavior 1] Initialization"><img src="./images/Behavior 1 Initialization.svg" /></a>
 
 ## [Behavior 2] Cargo tracking
 This communication diagram shows a scenario in which the user requests tracking for cargo "ABC123" on the cargo tracking page, with a focus on important messages. The cargo "ABC123," which is preset by the system and en route from HongKong to Helsinki, is currently at the Port of New York, where unloading has been completed.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/[Behavior 2] Cargo tracking/diagram_map.html" title="[Behavior 2] Cargo tracking"><img src="./images/Behavior 2 Cargo tracking.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Behavior 2 Cargo tracking.svg" title="[Behavior 2] Cargo tracking"><img src="./images/Behavior 2 Cargo tracking.svg" /></a>
 
 ## [Behavior 3-1] Cargo booking
 This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page, with a focus on important messages.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/[Behavior 3-1] Cargo booking/diagram_map.html" title="[Behavior 3-1] Cargo booking"><img src="./images/Behavior 3-1 Cargo booking.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Behavior 3-1 Cargo booking.svg" title="[Behavior 3-1] Cargo booking"><img src="./images/Behavior 3-1 Cargo booking.svg" /></a>
 
 ## [Behavior 3-2] Route suggestion
 This communication diagram illustrates a scenario in which the user requests cargo routing on the cargo booking result page, followed by the presentation of route candidates. The diagram focuses on important messages.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/[Behavior 3-2] Route suggestion/diagram_map.html" title="[Behavior 3-2] Route suggestion"><img src="./images/Behavior 3-2 Route suggestion.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Behavior 3-2 Route suggestion.svg" title="[Behavior 3-2] Route suggestion"><img src="./images/Behavior 3-2 Route suggestion.svg" /></a>
 
 ## [Behavior 3-3] Route assignment
 This communication diagram illustrates a scenario in which the user requests to assign new cargo to a delivery route on the route selection page, with a focus on important messages.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/[Behavior 3-3] Route assignment/diagram_map.html" title="[Behavior 3-3] Route assignment"><img src="./images/Behavior 3-3 Route assignment.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/images/Behavior 3-3 Route assignment.svg" title="[Behavior 3-3] Route assignment"><img src="./images/Behavior 3-3 Route assignment.svg" /></a>
 
 ## Extra 1: Diagrams in a single map
 This is a Diagram map [[1]](#footnote1) that shows the above diagrams in a single map. This map allows related elements to be highlighted across diagrams.
-<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/All/diagram_map.html" title="Diagrams in a single map"><img src="./images/diagram_map.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/diagram_map.html" title="Diagrams in a single map"><img src="./images/diagram_map.png" /></a>
 
 <sub><a id="footnote1">[1]</a> For more info, see [this post](https://dev.to/takaakit/diagram-map-tracing-uml-sysml-elements-across-diagrams-49i7).</sub>
 
