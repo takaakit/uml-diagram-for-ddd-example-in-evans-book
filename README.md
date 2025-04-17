@@ -30,23 +30,23 @@ Notes:
 
 ## [Behavior 1] Initialization
 This communication diagram illustrates a scenario in which the user initiates the cargo shipping system, with a focus on important messages.
-<a href="./images/[Behavior 1] Initialization.png" title="[Behavior 1] Initialization"><img src="./images/[Behavior 1] Initialization.png" /></a>
+<a href="./images/Behavior 1 Initialization.png" title="[Behavior 1] Initialization"><img src="./images/Behavior 1 Initialization.png" /></a>
 
 ## [Behavior 2] Cargo tracking
 This communication diagram shows a scenario in which the user requests tracking for cargo "ABC123" on the cargo tracking page, with a focus on important messages. The cargo "ABC123," which is preset by the system and en route from HongKong to Helsinki, is currently at the Port of New York, where unloading has been completed.
-<a href="./images/[Behavior 2] Cargo tracking.png" title="[Behavior 2] Cargo tracking"><img src="./images/[Behavior 2] Cargo tracking.png" /></a>
+<a href="./images/Behavior 2 Cargo tracking.png" title="[Behavior 2] Cargo tracking"><img src="./images/Behavior 2 Cargo tracking.png" /></a>
 
 ## [Behavior 3-1] Cargo booking
 This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page, with a focus on important messages.
-<a href="./images/[Behavior 3-1] Cargo booking.png" title="[Behavior 3-1] Cargo booking"><img src="./images/[Behavior 3-1] Cargo booking.png" /></a>
+<a href="./images/Behavior 3-1 Cargo booking.png" title="[Behavior 3-1] Cargo booking"><img src="./images/Behavior 3-1 Cargo booking.png" /></a>
 
 ## [Behavior 3-2] Route suggestion
 This communication diagram illustrates a scenario in which the user requests cargo routing on the cargo booking result page, followed by the presentation of route candidates. The diagram focuses on important messages.
-<a href="./images/[Behavior 3-2] Route suggestion.png" title="[Behavior 3-2] Route suggestion"><img src="./images/[Behavior 3-2] Route suggestion.png" /></a>
+<a href="./images/Behavior 3-2 Route suggestion.png" title="[Behavior 3-2] Route suggestion"><img src="./images/Behavior 3-2 Route suggestion.png" /></a>
 
 ## [Behavior 3-3] Route assignment
 This communication diagram illustrates a scenario in which the user requests to assign new cargo to a delivery route on the route selection page, with a focus on important messages.
-<a href="./images/[Behavior 3-3] Route assignment.png" title="[Behavior 3-3] Route assignment"><img src="./images/[Behavior 3-3] Route assignment.png" /></a>
+<a href="./images/Behavior 3-3 Route assignment.png" title="[Behavior 3-3] Route assignment"><img src="./images/Behavior 3-3 Route assignment.png" /></a>
 
 ## Extra 1: Diagrams in a single map
 This is a Diagram map [[1]](#footnote1) that shows the above diagrams in a single map. This map allows related elements to be highlighted across diagrams.
