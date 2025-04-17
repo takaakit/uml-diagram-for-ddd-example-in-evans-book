@@ -50,13 +50,13 @@ This communication diagram illustrates a scenario in which the user requests to 
 
 ## Extra 1: Diagrams in a single map
 This is a Diagram map [[1]](#footnote1) that shows the above diagrams in a single map. This map allows related elements to be highlighted across diagrams.
-<a href="https://github.com/takaakit/uml-diagram-for-ddd-example-in-evans-book/diagram_map/diagram_map.html" title="Diagrams in a single map"><img src="./images/diagram_map.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/diagram_map/diagram_map.html" title="Diagrams in a single map"><img src="./images/diagram_map.png" /></a>
 
 <sub><a id="footnote1">[1]</a> For more info, see [this post](https://dev.to/takaakit/diagram-map-tracing-uml-sysml-elements-across-diagrams-49i7).</sub>
 
 ## Extra 2: Directed graph
 This is a directed graph that represents the elements and their relationships, associated with the Booking context and the Transport network context. This graph allows the relationships between elements to be viewed in various layouts.
-<a href="https://github.com/takaakit/uml-diagram-for-ddd-example-in-evans-book/directed_graph/directed_graph.html.html" title="Directed graph"><img src="./images/directed_graph.png" /></a>
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/directed_graph/directed_graph.html.html" title="Directed graph"><img src="./images/directed_graph.png" /></a>
 
 References
 ---
