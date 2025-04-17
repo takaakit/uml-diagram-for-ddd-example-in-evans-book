@@ -1,3 +1,5 @@
+<img src="./images/top_image.png" style="width: 80%; display: block; margin: 0 auto;" />
+
 # UML Diagram for the DDD Example in Evans' Book
 
 This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book. These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. The aim of these diagrams is to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
