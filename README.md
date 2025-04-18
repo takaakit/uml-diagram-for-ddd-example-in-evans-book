@@ -15,23 +15,19 @@ This sequence diagram illustrates the key interactions between the user and the 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/User-system interaction/diagram_map.html?highlight=0" title="User-system interaction"><img src="./User-system interaction/diagram_map.svg" /></a>
 
 ## Domain model overview
-This class diagram illustrates the basic elements of the domain model and their relationships. The layout of the elements is based on the diagram presented in the [dddsample-core](https://github.com/citerus/dddsample-core) project.
+This class diagram illustrates the basic elements of the domain model and their relationships. The layout of the elements in the domain model is based on the diagram presented in the [dddsample-core](https://github.com/citerus/dddsample-core) project.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Domain model overview/diagram_map.html?highlight=0" title="Domain model overview"><img src="./Domain model overview/diagram_map.svg" /></a>
 
-## Domain objects for ABC123 cargo
-This object diagram shows the connections among the basic domain objects. Specifically, it shows the object snapshot associated with the cargo object "ABC123," which is preset as sample data. The cargo "ABC123," which is en route from HongKong to Helsinki, is currently at the Port of New York, where unloading has been completed.
+## Domain objects for "ABC123" cargo
+This object diagram shows the basic domain objects and thier connections. In particular, it shows the object snapshot associated with the cargo object "ABC123," which is preset as sample data. The cargo "ABC123," which is en route from HongKong to Helsinki, is currently at the Port of New York, where unloading has been completed.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Domain objects for ABC123 cargo/diagram_map.html?highlight=0" title="Domain objects for ABC123 cargo"><img src="./Domain objects for ABC123 cargo/diagram_map.svg" /></a>
 
 ## Overall structure
-This class diagram illustrates the overall structure of the cargo shipping system: it is composed of two contexts, the Booking context and the Transport network context. The system is implemented using Spring projects such as Spring Boot / MVC / Data JPA.
-
-Notes:
-* This diagram focuses on key elements and relationships and does not reflect the entire implementation.
-* Attributes and operations are hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file in the modeling tool Astah.
+This class diagram illustrates the overall structure of the cargo shipping system: it is composed of two contexts, the Booking context and the Transport network context. The system is implemented using Spring projects such as Spring Boot / MVC / Data JPA. Note that this diagram focuses on elements and relationships that may be considered and does not reflect the entire implementation. Attributes and operations are also hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file using the modeling tool Astah.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Overall structure/diagram_map.html?highlight=0" title="Overall structure"><img src="./Overall structure/diagram_map.svg" /></a>
 
 ## Behavior 1: Initialization
-This communication diagram illustrates a scenario in which the user initiates the cargo shipping system, with a focus on important messages.
+This communication diagram illustrates a scenario in which the user launches the cargo shipping system, with a focus on messages that may be worth considering.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Behavior 1 Initialization/diagram_map.html?highlight=0" title="Behavior 1: Initialization"><img src="./Behavior 1 Initialization/diagram_map.svg" /></a>
 
 ## Behavior 2: Cargo tracking
