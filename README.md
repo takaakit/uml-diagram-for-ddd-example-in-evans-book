@@ -57,9 +57,9 @@ References
 
 Links
 ---
-* [citerus/dddsample-core](https://github.com/citerus/dddsample-core)
-* [Astah Professional/UML/Viewer](https://astah.net/download)
-* [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download)
+* [citerus/dddsample-core](https://github.com/citerus/dddsample-core) @GitHub
+* [Astah Professional/UML/Viewer](https://astah.net/download) download page
+* [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) download page
 
 License
 ---
