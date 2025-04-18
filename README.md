@@ -2,13 +2,13 @@
 
 # UML Diagram for the DDD Example in Evans' Book
 
-This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book (*Domain-Driven Design: Tackling Complexity in the Heart of Software*). These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. The aim of these diagrams is to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
+This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book (*Domain-Driven Design: Tackling Complexity in the Heart of Software*). These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. These diagrams aim to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
 
 If you want to get into DDD theory, check out Evans' book. If you want to get into the implementation details, check out the source code. Also, if you want to understand the UML model behind these diagrams, open the model file (ddd-example-in-evans-book.asta) using the modeling tool [Astah Professional/UML/Viewer](https://astah.net/download).  
 
-Clicking on the UML diagram image below opens it in Diagram Map [[1]](#footnote1).
+Clicking on the UML diagram image below opens it in Diagram Map [*1](#footnote1).
 
-<sub><a id="footnote1">[1]</a> Diagram Map allows you to zoom and pan, like Google Maps, when viewing a UML diagram. You can view it with any browser. If you want to create one yourself, [Astah Professional/UML](https://astah.net/download) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) are required.</sub>
+<sub><a id="footnote1">*1</a>: Diagram Map allows you to zoom and pan, like Google Maps, when viewing a UML diagram. You can view it with any browser. To create one on your own, [Astah Professional/UML](https://astah.net/download) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) are required.</sub>
 
 
 ## User-system interaction
@@ -66,11 +66,11 @@ This communication diagram illustrates a scenario in which the user requests to 
 
 
 ## Extra: Directed graph
-This is a directed graph [[2]](#footnote2) that represents the structural elements and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the relationships between elements in various layouts.
+This is a directed graph [*2](#footnote2) that represents the structural elements and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the relationships between elements in various layouts.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/directed_graph/directed_graph.html" title="Directed graph of structural elements and their relationships"><img src="./directed_graph/directed_graph.jpg" /></a>
 
-<sub><a id="footnote2">[2]</a> If you want to create this directed graph yourself, [Astah Professional/UML](https://astah.net/download) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) are required.</sub>
+<sub><a id="footnote2">*2</a>: To create this directed graph on your own, [Astah Professional/UML](https://astah.net/download) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) are required.</sub>
 
 
 ## References
@@ -94,3 +94,7 @@ Diagram map (diagram_map.html) and Directed graph (directed_graph.html) include 
 * [Vanta.js](https://www.vantajs.com) is copyrighted by Teng Bao and is released under the [MIT license](https://opensource.org/licenses/MIT).
 
 Files and data in this project other than the above libraries are under the [Creative Commons Zero (CC0) license](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
+## Found a mistake?
+If you spot any mistakes in the diagrams or model, please open an [issue](https://github.com/takaakit/uml-diagram-for-ddd-example-in-evans-book/issues).
