@@ -31,23 +31,23 @@ This communication diagram illustrates a scenario in which the user launches the
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Behavior 1 Initialization/diagram_map.html?highlight=0" title="Behavior 1: Initialization"><img src="./Behavior 1 Initialization/diagram_map.svg" /></a>
 
 ## Behavior 2: Cargo tracking
-This communication diagram shows a scenario in which the user requests tracking for cargo "ABC123" on the cargo tracking page, with a focus on important messages. The cargo "ABC123," which is preset by the system and en route from HongKong to Helsinki, is currently at the Port of New York, where unloading has been completed.
+This communication diagram shows a scenario in which the user requests tracking for cargo "ABC123" on the cargo tracking page. The cargo "ABC123," which is preset by the system and en route from HongKong to Helsinki, is currently at the port of New York, where unloading has been completed.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Behavior 2 Cargo tracking/diagram_map.html?highlight=0" title="Behavior 2: Cargo tracking"><img src="./Behavior 2 Cargo tracking/diagram_map.svg" /></a>
 
 ## Behavior 3-1: Cargo booking
-This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page, with a focus on important messages.
+This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Behavior 3-1 Cargo booking/diagram_map.html?highlight=0" title="Behavior 3-1: Cargo booking"><img src="./Behavior 3-1 Cargo booking/diagram_map.svg" /></a>
 
 ## Behavior 3-2: Route suggestion
-This communication diagram illustrates a scenario in which the user requests cargo routing on the cargo booking result page, followed by the presentation of route candidates. The diagram focuses on important messages.
+This communication diagram illustrates a scenario in which the user requests cargo routing on the cargo booking result page, followed by the presentation of route candidates.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Behavior 3-2 Route suggestion/diagram_map.html?highlight=0" title="Behavior 3-2: Route suggestion"><img src="./Behavior 3-2 Route suggestion/diagram_map.svg" /></a>
 
 ## Behavior 3-3: Route assignment
-This communication diagram illustrates a scenario in which the user requests to assign new cargo to a delivery route on the route selection page, with a focus on important messages.
+This communication diagram illustrates a scenario in which the user requests to assign new cargo to a delivery route on the route selection page.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Behavior 3-3 Route assignment/diagram_map.html?highlight=0" title="Behavior 3-3: Route assignment"><img src="./Behavior 3-3 Route assignment/diagram_map.svg" /></a>
 
 ## Extra: Directed graph
-This is a directed graph that represents the structural elements and their relationships, associated with the Booking context and the Transport network context. This graph allows the relationships between elements to be viewed in various layouts.
+This is a directed graph that represents the structural elements and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the relationships between elements in various layouts.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Directed graph/directed_graph.html" title="Directed graph of structural elements and their relationships"><img src="./Directed graph/directed_graph.jpg" /></a>
 
 References
