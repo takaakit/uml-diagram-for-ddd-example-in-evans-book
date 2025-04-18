@@ -2,9 +2,9 @@
 
 # UML Diagram for the DDD Example in Evans' Book
 
-This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book (*Domain-Driven Design: Tackling Complexity in the Heart of Software*). These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. These diagrams aim to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
+This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book (*Domain-Driven Design: Tackling Complexity in the Heart of Software*). These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. The diagrams aim to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
 
-If you want to get into DDD theory, check out Evans' book. If you want to get into the implementation details, check out the source code. Also, if you want to understand the UML model behind these diagrams, open the model file (ddd-example-in-evans-book.asta) using the modeling tool [Astah Professional/UML/Viewer](https://astah.net/download).  
+If you want to get into DDD theory, check out Evans' book. If you want to get into the implementation details, check out the source code of the dddsample-core project. Also, if you want to understand the UML model behind these diagrams, open the model file (ddd-example-in-evans-book.asta) using the modeling tool [Astah Professional/UML/Viewer](https://astah.net/download).  
 
 Clicking on the UML diagram image below opens it in Diagram Map [*1](#footnote1).
 
@@ -18,19 +18,19 @@ This sequence diagram illustrates the key interactions between the user and the 
 
 
 ## Domain model overview
-This class diagram illustrates the basic elements of the domain model and their relationships. The layout of the elements in the domain model is based on the diagram presented in the dddsample-core project. Attributes and operations are hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file using the modeling tool Astah.
+This class diagram illustrates the basic elements of the domain model and their relationships. The layout of the domain model elements is based on the diagram presented in the dddsample-core project. Attributes and operations are hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file (ddd-example-in-evans-book.asta) using the modeling tool Astah.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/Domain model overview/diagram_map.html?highlight=0" title="Domain model overview"><img src="./uml_diagram/Domain model overview/diagram_map.svg" /></a>
 
 
 ## Domain objects for "ABC123" cargo
-This object diagram shows the basic domain objects and thier connections. In particular, it shows the object snapshot associated with the cargo object "ABC123," which is preset as sample data. The cargo "ABC123," which is en route from HongKong to Helsinki, is currently at the Port of New York, where unloading has been completed.
+This object diagram shows the basic domain objects and thier connections. In particular, it shows the object snapshot associated with the cargo object "ABC123," which is preset as sample data. The cargo "ABC123," which is en route from HongKong to Helsinki, is currently at the port of New York, where unloading has been completed.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/Domain objects for ABC123 cargo/diagram_map.html?highlight=0" title="Domain objects for ABC123 cargo"><img src="./uml_diagram/Domain objects for ABC123 cargo/diagram_map.svg" /></a>
 
 
 ## Overall structure
-This class diagram illustrates the overall structure of the cargo shipping system: it is composed of two contexts, the Booking context and the Transport network context. The system is implemented using Spring projects such as Spring Boot / MVC / Data JPA. Note that this diagram focuses on elements and relationships that may be considered and does not reflect the entire implementation. Attributes and operations are also hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file using the modeling tool Astah.
+This class diagram illustrates the overall structure of the cargo shipping system: it is composed of two contexts, the Booking context and the Transport network context. The system is implemented using Spring projects such as Spring Boot / MVC / Data JPA. Note that this diagram focuses on elements and relationships that may be considered and does not reflect the entire implementation. Attributes and operations are also hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file (ddd-example-in-evans-book.asta) using the modeling tool Astah.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/Overall structure/diagram_map.html?highlight=0" title="Overall structure"><img src="./uml_diagram/Overall structure/diagram_map.svg" /></a>
 
@@ -48,7 +48,7 @@ This communication diagram shows a scenario in which the user requests tracking 
 
 
 ## Behavior 3-1: Cargo booking
-This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page.
+This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page. The new cargo is set to be shipped from New York to Helsinki.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/Behavior 3-1 Cargo booking/diagram_map.html?highlight=0" title="Behavior 3-1: Cargo booking"><img src="./uml_diagram/Behavior 3-1 Cargo booking/diagram_map.svg" /></a>
 
@@ -66,7 +66,7 @@ This communication diagram illustrates a scenario in which the user requests to 
 
 
 ## Extra: Directed graph
-This is a directed graph [*2](#footnote2) that represents the structural elements and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the relationships between elements in various layouts.
+This is a directed graph [*2](#footnote2) that represents the structural elements and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the element relationships in various layouts.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/directed_graph/directed_graph.html" title="Directed graph of structural elements and their relationships"><img src="./directed_graph/directed_graph.jpg" /></a>
 
