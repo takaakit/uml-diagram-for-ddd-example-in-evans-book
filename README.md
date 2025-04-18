@@ -2,13 +2,13 @@
 
 # UML Diagram for the DDD Example in Evans' Book
 
-This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book. These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. The aim of these diagrams is to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
+This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book (*Domain-Driven Design: Tackling Complexity in the Heart of Software*). These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. The aim of these diagrams is to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
 
-If you want to get into DDD theory, check out Evans' book. If you want to get into the implementation details, check out the [source code](https://github.com/citerus/dddsample-core). Also, if you want to understand the UML models behind these diagrams, open the model file (ddd-example-in-evans-book.asta) in this project using the modeling tool [Astah Professional/UML/Viewer](https://astah.net/download).  
+If you want to get into DDD theory, check out Evans' book. If you want to get into the implementation details, check out the [source code](https://github.com/citerus/dddsample-core). Also, if you want to understand the UML model behind these diagrams, open the model file (ddd-example-in-evans-book.asta) using the modeling tool [Astah Professional/UML/Viewer](https://astah.net/download).  
 
-Clicking on the UML diagram image below opens it in the Diagram Map [[1]](#footnote1).
+Clicking on the UML diagram image below opens it in Diagram Map [[1]](#footnote1).
 
-<sub><a id="footnote1">[1]</a> Diagram Map allows you to zoom and pan, like Google Maps, when viewing a UML diagram. To create a Diagram Map, you'll need [Astah Professional/UML]((https://astah.net/download)) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download).</sub>
+<sub><a id="footnote1">[1]</a> Diagram Map allows you to zoom and pan, like Google Maps, when viewing a UML diagram. You can view it with any browser. If you want to create one yourself, [Astah Professional/UML](https://astah.net/download) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) are required.</sub>
 
 ## User-system interaction
 This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams.
