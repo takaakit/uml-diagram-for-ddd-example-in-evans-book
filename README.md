@@ -15,7 +15,7 @@ This sequence diagram illustrates the key interactions between the user and the 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/User-system interaction/diagram_map.html?highlight=0" title="User-system interaction"><img src="./User-system interaction/diagram_map.svg" /></a>
 
 ## Domain model overview
-This class diagram illustrates the basic elements of the domain model and their relationships. The layout of the elements in the domain model is based on the diagram presented in the [dddsample-core](https://github.com/citerus/dddsample-core) project.
+This class diagram illustrates the basic elements of the domain model and their relationships. The layout of the elements in the domain model is based on the diagram presented in the dddsample-core project. Attributes and operations are hidden to focus on understanding the elements and their relationships. If you want to see them, open the model file using the modeling tool Astah.
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/Domain model overview/diagram_map.html?highlight=0" title="Domain model overview"><img src="./Domain model overview/diagram_map.svg" /></a>
 
 ## Domain objects for "ABC123" cargo
