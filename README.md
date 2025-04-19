@@ -12,7 +12,7 @@ Clicking on the UML diagram image below opens it in Diagram Map [*1](#footnote1)
 
 
 ## User-system interaction
-This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams.
+This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams. The interactions show two use cases: (1) tracking the handling of specified cargo, and (2) booking new cargo followed by assigning it a delivery route.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/User-system interaction/diagram_map.html?highlight=0" title="User-system interaction"><img src="./uml_diagram/User-system interaction/diagram_map.svg" /></a>
 
