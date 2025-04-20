@@ -6,7 +6,7 @@ This project uses UML diagrams to illustrate the structure and behavior of the D
 
 If you want to get into DDD theory, check out Evans' book. If you want to get into the implementation details, check out the source code of the dddsample-core project. Also, if you want to understand the UML model behind these diagrams, open the model file (ddd-example-in-evans-book.asta) using the modeling tool [Astah Professional/UML/Viewer](https://astah.net/download).  
 
-Clicking on the UML diagram image below opens the corresponding diagram in Diagram Map [*1](#footnote1).
+Clicking on the UML diagram image below opens the diagram in Diagram Map [*1](#footnote1).
 
 <sub><a id="footnote1">*1</a>: Diagram Map allows you to zoom and pan, like Google Maps, when viewing a UML diagram. You can view it with any browser. To create one on your own, [Astah Professional/UML](https://astah.net/download) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) are required.</sub>
 
