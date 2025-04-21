@@ -66,7 +66,9 @@ This communication diagram illustrates a scenario in which the user requests the
 
 
 ## Extra: Directed graph
-This is a directed graph [*2](#footnote2) that represents the structural elements (classifiers) and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the element relationships in various layouts. Note that the node colors in this graph are automatically assigned on a per‑folder basis and do not correspond to the element colors in the UML diagram shown above.
+This is a directed graph [*2](#footnote2) that represents the structural elements (classifiers) and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the element relationships in various layouts. Maybe you'll be surprised by how complex the edges in this graph are — I was too. But I think it just reflects the reality—relationships really do get this complex in a reasonably sized application.
+
+Note that the node colors in this graph are automatically assigned on a per‑folder basis and do not correspond to the element colors in the UML diagram shown above.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/directed_graph/directed_graph.html" title="Directed graph of structural elements and their relationships"><img src="./directed_graph/directed_graph.jpg" /></a>
 
