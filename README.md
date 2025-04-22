@@ -2,7 +2,7 @@
 
 # UML Diagram for the DDD Example in Evans' Book
 
-This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book (*Domain-Driven Design: Tackling Complexity in the Heart of Software*). These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. They aim to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
+This project uses UML diagrams to illustrate the structure and behavior of the DDD example—a cargo shipping system—from Eric Evans' book (*Domain-Driven Design: Tackling Complexity in the Heart of Software*). These diagrams are created based on the source code of the [dddsample-core](https://github.com/citerus/dddsample-core) project on GitHub. The diagrams aim to help us understand how the example implements the strategic and tactical designs of DDD and the mechanisms by which it operates.  
 
 If you want to get into DDD theory, check out Evans' book. If you want to get into the implementation details, check out the source code of the dddsample-core project. Also, if you want to understand the UML model behind these diagrams, open the model file (ddd-example-in-evans-book.asta) using the modeling tool [Astah Professional/UML/Viewer](https://astah.net/download).  
 
@@ -12,7 +12,7 @@ Clicking on the UML diagram image below opens the diagram in Diagram Map [*1](#f
 
 
 ## User-system interaction
-This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams. The interactions show two use cases: (1) tracking the handling of specified cargo, and (2) booking new cargo followed by assigning it a delivery route. To understand the system specifications in more detail, refer to Chapter 7 of Evans' book, Using the Language in an Example: A Cargo Shipping System.
+This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams. The interactions show two use cases: (1) tracking the handling of specified cargo, and (2) booking new cargo followed by assigning it a delivery route. To understand the system requirements and specifications in detail, refer to Chapter 7 of Evans' book, Using the Language in an Example: A Cargo Shipping System.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/User-system interaction/diagram_map.html?highlight=0" title="User-system interaction"><img src="./uml_diagram/User-system interaction/diagram_map.svg" /></a>
 
@@ -48,7 +48,7 @@ This communication diagram shows a scenario in which the user requests tracking 
 
 
 ## Behavior 3-1: Cargo booking
-This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page. The new cargo is set to be shipped from New York to Helsinki.
+This communication diagram shows a scenario in which the user registers new cargo on the cargo booking page. The new cargo is set to be delivered from New York to Helsinki.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/Behavior 3-1 Cargo booking/diagram_map.html?highlight=0" title="Behavior 3-1: Cargo booking"><img src="./uml_diagram/Behavior 3-1 Cargo booking/diagram_map.svg" /></a>
 
