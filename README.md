@@ -95,7 +95,9 @@ Diagram map (diagram_map.html) and Directed graph (directed_graph.html) include 
 * [Three.js](https://threejs.org) is copyrighted by three.js authors and is released under the [MIT license](https://opensource.org/licenses/MIT).
 * [Vanta.js](https://www.vantajs.com) is copyrighted by Teng Bao and is released under the [MIT license](https://opensource.org/licenses/MIT).
 
-Files and data in this project other than the above libraries are under the [Creative Commons Zero (CC0) license](https://creativecommons.org/publicdomain/zero/1.0/).
+And some of the diagrams use images downloaded from [Freepik](https://www.freepik.com/).
+
+Except for the libraries and images mentioned above, all files and data in this project are under the [Creative Commons Zero (CC0) license](https://creativecommons.org/publicdomain/zero/1.0/).
 
 
 ## Found a mistake?
