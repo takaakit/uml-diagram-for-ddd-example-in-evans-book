@@ -65,6 +65,12 @@ This communication diagram illustrates a scenario in which the user requests the
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/Behavior 3-3 Route assignment/diagram_map.html?highlight=0" title="Behavior 3-3: Route assignment"><img src="./uml_diagram/Behavior 3-3 Route assignment/diagram_map.svg" /></a>
 
 
+## JPA entity relationships for the Database
+This class diagram shows JPA entity relationships transcribed from the JPA annotations applied to the source code. The stereotypes correspond to those annotations (e.g., \<\<Entity\>\> denotes the @Entity annotation for JPA). To emphasize ease of understanding over strict formalism, the diagram's notation is not based on any specific UML profile for JPA.
+
+<a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/JPA entity relationships/diagram_map.html?highlight=0" title="JPA entity relationships"><img src="./uml_diagram/JPA entity relationships/diagram_map.svg" /></a>
+
+
 ## Extra: Directed graph
 This is a directed graph [*2](#footnote2) that represents the structural elements (classifiers) and their relationships, associated with the Booking context and the Transport network context. This graph allows you to view the element relationships in various layouts. Maybe you'll be surprised by how complex the edges in this graph are — I was too. But I think it just reflects the reality—relationships really do get this complex in a reasonably sized application.
 
