@@ -66,7 +66,7 @@ This communication diagram illustrates a scenario in which the user requests the
 
 
 ## JPA entity relationships for the Database
-This class diagram shows JPA entity relationships transcribed from the JPA annotations applied to the source code. The stereotypes correspond to those annotations (e.g., \<\<Entity\>\> denotes the @Entity annotation for JPA). To emphasize ease of understanding over strict formalism, the diagram's notation is not based on any specific UML profile for JPA.
+This class diagram shows JPA entity relationships transcribed from the JPA annotations applied to the source code. The stereotypes correspond to those annotations (e.g., \<\<Entity\>\> denotes the @Entity annotation for JPA, not for DDD). To emphasize ease of understanding over strict formalism, the diagram's notation is not based on any specific UML profile for JPA.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/JPA entity relationships for the Database/diagram_map.html?highlight=0" title="JPA entity relationships for the Database"><img src="./uml_diagram/JPA entity relationships for the Database/diagram_map.svg" /></a>
 
