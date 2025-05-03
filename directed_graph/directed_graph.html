@@ -336,8 +336,8 @@ The JavaScript code except the D3, Popper, Tippy, Chroma, Three, and Vanta libra
         // Bind zoom event
         svg.call(zoom);
 
-        // Remove temporary tooltips when mouse enters
-        svg.on('mouseenter', function(e) {
+        // Remove temporary tooltips when mouse over the svg
+        svg.on('mouseover', function () {
             removeTemporaryTooltips();
         });
 
@@ -587,6 +587,9 @@ The JavaScript code except the D3, Popper, Tippy, Chroma, Three, and Vanta libra
                     // Send the node's id via BroadcastChannel if available
                     if (channel !== null) {
                         channel.postMessage(d.id);
+
+                        // Remove temporary tooltips
+                        removeTemporaryTooltips();
                     }
                     if (isLinkTargetHighlightButtonOn && isLinkSourceHighlightButtonOn) {
                         highlightTargetNodes(d, -1, HIGHLIGHT_1_COLOR);
@@ -602,7 +605,10 @@ The JavaScript code except the D3, Popper, Tippy, Chroma, Three, and Vanta libra
                 })
                 .on('mouseout', (event, d) => {
                     if (channel !== null) {
-                    channel.postMessage('');
+                        channel.postMessage('');
+
+                        // Remove temporary tooltips
+                        removeTemporaryTooltips();
                     }
                     resetHighlights();
                 });
@@ -3366,6 +3372,7 @@ The JavaScript code except the D3, Popper, Tippy, Chroma, Three, and Vanta libra
             for (temporaryTooltip of temporaryTooltips) {
                 temporaryTooltip.destroy();
             }
+            temporaryTooltips = [];
         }
 
         // --------
