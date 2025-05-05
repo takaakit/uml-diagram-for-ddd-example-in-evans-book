@@ -13,7 +13,7 @@ Clicking on the UML diagram image below opens the diagram in Diagram Map [*1](#f
 
 ## Audio guide
 
-[Audio guide to the design of the Cargo shipping system](https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/audio/audio_guide.wav): This audio was generated using Google NotebookLM from the contents of this README. Some explanations may raise further questions, but overall the commentary is clear and informative. I'm sharing it here because I believe it will help you build a mental model of the Cargo shipping system's design.
+[Audio guide for this project](https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/audio/audio_guide.wav) – This audio was generated with Google NotebookLM based on the contents of this README. You may question some of the explanations, but overall the explanations are clear and informative. I'm sharing it here because I think it will help you build a mental model of the Cargo shipping system's design.
 
 
 ## User-system interaction
