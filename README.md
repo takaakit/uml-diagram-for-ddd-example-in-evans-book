@@ -11,6 +11,11 @@ Clicking on the UML diagram image below opens the diagram in Diagram Map [*1](#f
 <sub><a id="footnote1">*1</a>: Diagram Map allows you to zoom and pan, like Google Maps, when viewing a UML diagram. You can view it with any browser. To create one on your own, [Astah Professional/UML](https://astah.net/download) and the [m+ plug-in](https://sites.google.com/view/m-plus-plugin/download) are required.</sub>
 
 
+## Audio guide
+
+[Audio guide to the design of the Cargo shipping system](https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/audio/audio_guide.wav): This audio was generated using Google NotebookLM from the contents of this README. Some explanations may raise further questions, but overall the commentary is clear and informative. I'm sharing it here because I believe it will help you build a mental model of the Cargo shipping system's design.
+
+
 ## User-system interaction
 This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams. The interactions show two use cases: (1) tracking the handling of specified cargo, and (2) booking new cargo followed by assigning it a delivery route. To understand the system requirements and specifications in detail, refer to Chapter 7 of Evans' book, Using the Language in an Example: A Cargo Shipping System.
 
