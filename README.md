@@ -29,7 +29,7 @@ This class diagram illustrates the basic elements of the domain model and their 
 
 
 ## Domain objects for "ABC123" cargo
-This object diagram shows the basic domain objects and thier connections. In particular, it shows the object snapshot associated with the cargo object "ABC123," which is preset as sample data. The cargo "ABC123," which is en route from HongKong to Helsinki, is currently at the port of New York, where unloading has been completed.
+This object diagram shows the basic domain objects and thier links. In particular, it shows the object snapshot associated with the cargo object "ABC123," which is preset as sample data. The cargo "ABC123," which is en route from HongKong to Helsinki, is currently at the port of New York, where unloading has been completed.
 
 <a href="https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/uml_diagram/Domain objects for ABC123 cargo/diagram_map.html?highlight=0" title="Domain objects for ABC123 cargo"><img src="./uml_diagram/Domain objects for ABC123 cargo/diagram_map.svg" /></a>
 
