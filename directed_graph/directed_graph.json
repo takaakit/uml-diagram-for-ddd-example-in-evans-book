@@ -565,20 +565,10 @@
     "type" : "Class",
     "package_path" : "se/citerus/dddsample/interfaces/booking/facade/internal"
   }, {
-    "id" : "we-9d031872126ab1efa5610292dbd2a1f9",
-    "label" : "CargoAdminController",
-    "type" : "Class",
-    "package_path" : "se/citerus/dddsample/interfaces/booking/web"
-  }, {
     "id" : "4sa-9d031872126ab1efa5610292dbd2a1f9",
     "label" : "UploadDirectoryScanner",
     "type" : "Class",
     "package_path" : "se/citerus/dddsample/interfaces/handling/file"
-  }, {
-    "id" : "1at-9d031872126ab1efa5610292dbd2a1f9",
-    "label" : "CargoTrackingController",
-    "type" : "Class",
-    "package_path" : "se/citerus/dddsample/interfaces/tracking"
   }, {
     "id" : "4i5-9d031872126ab1efa5610292dbd2a1f9",
     "label" : "TrackCommandValidator",
@@ -625,15 +615,10 @@
     "type" : "Class",
     "package_path" : "se/citerus/dddsample/interfaces/booking/facade/internal/assembler"
   }, {
-    "id" : "hg-9d031872126ab1efa5610292dbd2a1f9",
-    "label" : "BookingDispatcherServlet",
+    "id" : "we-9d031872126ab1efa5610292dbd2a1f9",
+    "label" : "CargoAdminController",
     "type" : "Class",
     "package_path" : "se/citerus/dddsample/interfaces/booking/web"
-  }, {
-    "id" : "57g-9d031872126ab1efa5610292dbd2a1f9",
-    "label" : "DispatcherServlet",
-    "type" : "Class",
-    "package_path" : "org/springframework/web/servlet"
   }, {
     "id" : "3vp-9d031872126ab1efa5610292dbd2a1f9",
     "label" : "RouteAssignmentCommand",
@@ -689,6 +674,11 @@
     "label" : "HandlingReportServiceImpl",
     "type" : "Class",
     "package_path" : "se/citerus/dddsample/interfaces/handling/ws"
+  }, {
+    "id" : "1at-9d031872126ab1efa5610292dbd2a1f9",
+    "label" : "CargoTrackingController",
+    "type" : "Class",
+    "package_path" : "se/citerus/dddsample/interfaces/tracking"
   }, {
     "id" : "5ko-9d031872126ab1efa5610292dbd2a1f9",
     "label" : "MessageSource",
@@ -2292,19 +2282,9 @@
     "label" : ""
   }, {
     "source" : "34z-9d031872126ab1efa5610292dbd2a1f9",
-    "target" : "we-9d031872126ab1efa5610292dbd2a1f9",
-    "type" : "Dependence",
-    "label" : "create"
-  }, {
-    "source" : "34z-9d031872126ab1efa5610292dbd2a1f9",
     "target" : "4sa-9d031872126ab1efa5610292dbd2a1f9",
     "type" : "Dependence",
     "label" : ""
-  }, {
-    "source" : "34z-9d031872126ab1efa5610292dbd2a1f9",
-    "target" : "1at-9d031872126ab1efa5610292dbd2a1f9",
-    "type" : "Dependence",
-    "label" : "create"
   }, {
     "source" : "34z-9d031872126ab1efa5610292dbd2a1f9",
     "target" : "4i5-9d031872126ab1efa5610292dbd2a1f9",
@@ -2534,11 +2514,6 @@
     "source" : "3p3-9d031872126ab1efa5610292dbd2a1f9",
     "target" : "3o3-9d031872126ab1efa5610292dbd2a1f9",
     "type" : "Dependence",
-    "label" : ""
-  }, {
-    "source" : "hg-9d031872126ab1efa5610292dbd2a1f9",
-    "target" : "57g-9d031872126ab1efa5610292dbd2a1f9",
-    "type" : "Inheritance",
     "label" : ""
   }, {
     "source" : "we-9d031872126ab1efa5610292dbd2a1f9",
